@@ -1,9 +1,0 @@
-cd path\to\your-repo
-# optional: put it in a folder
-mkdir assets\images
-copy C:\path\to\hero.jpg assets\images\   # or move/copy your file in
-
-git add assets/images/hero.jpg      # stage the image
-git commit -m "Add hero image"      # commit
-git push origin main                # upload to GitHub
-
